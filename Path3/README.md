@@ -15,27 +15,29 @@ R-4,W-2,X-1;
 
  graohical= mousepad filename
 
- #Custom Commands
+ # Custom Commands
  we can create our custom commans with Ai tools
 
 
- #File Identification
+ # File Identification
 
  OS identifies a file type by its signature
  It can differentiate file and directory only
 
 
- #Port Forwarding with Ngrok
+ # Port Forwarding with Ngrok
 
  install and set up ngrok in kali linux 
 
 
-#Why Port Forwarding
+# Why Port Forwarding
+with PF we can forwar any service like apache,ssh,etc. unlike simple ssh.
 
- #New Commands used
+ # New Commands used
 
- -wget link(Download)
- -nmap -p- localhost(for knowing service ports)
+ - wget link(Download)
+ 
+ - nmap -p- localhost(for knowing service ports)
 ## Port Forwarding
 
 To run , run the following command
