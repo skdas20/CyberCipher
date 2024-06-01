@@ -4,7 +4,7 @@
 SpiderFoot is an open-source intelligence (OSINT) automation tool that gathers extensive information about a target (e.g., domain, IP address) from numerous public sources.
 
 Usage -
-
+ 
 - New Scan 
 - Put the scan name and scan target website
 - We will be able to fetch some basic informations of the website 
