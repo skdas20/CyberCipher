@@ -25,20 +25,22 @@ tcp- email,browsing
 
 icmp-error reporting
 
-#Local host
+# Local host
 
 Its basically our own computer used for testing purpose
 
 For IPv4(32 bits), localhost is represented by the IP address 127.0.0.1.
 For IPv6(128 bits), it is ::1.
 
-#Running Secure Shell Service 
+# Running Secure Shell Service 
 
+```bash
 sudo apt-get install openssh-server
 
 sudo systemctl start ssh.service
 
 sudo journalctl -u ssh.service -f
+```
 
 sudo: This is a command used in Unix-like operating systems to run programs with the security privileges of another user, typically the superuser or root.
 journalctl: This command is used to query and display messages from the systemd journal, which is a centralized logging system.
