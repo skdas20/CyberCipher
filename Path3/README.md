@@ -29,7 +29,8 @@ R-4,W-2,X-1;
 
  install and set up ngrok in kali linux 
 
-![Example Image](./Path3/Screenshot (550).png)
+![Example Image](./Screenshot (550).png)
+
 ![Example Image](./Screenshot (551).png)
 
 # Why Port Forwarding
