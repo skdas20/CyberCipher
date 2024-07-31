@@ -29,9 +29,9 @@ R-4,W-2,X-1;
 
  install and set up ngrok in kali linux 
 
-![Example Image](./Screenshot (550).png)
+![Example Image](./Path3/Screenshot_(550).png)
 
-![Example Image](./Screenshot (551).png)
+![Example Image](./Screenshot_(551).png)
 
 # Why Port Forwarding
 with PF we can forwar any service like apache,ssh,etc. unlike simple ssh.
