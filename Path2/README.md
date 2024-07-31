@@ -6,6 +6,8 @@ Functioning for browser
 
 search bar entry ---> DNS server(Name to IP)---->connection between user IP and Web server IP.
 
+# Keep a track of Port Numbers and Services here- https://en.wikipedia.org/wiki/List_of_TCP_and_UDP_port_numbers
+
 # Port Number 
 
 port number is a unique Identifier for a particular service  on a server with a given IP
@@ -41,6 +43,8 @@ sudo systemctl start ssh.service
 
 sudo journalctl -u ssh.service -f
 ```
+
+![Example Image](./ss2.png)
 
 sudo: This is a command used in Unix-like operating systems to run programs with the security privileges of another user, typically the superuser or root.
 journalctl: This command is used to query and display messages from the systemd journal, which is a centralized logging system.
