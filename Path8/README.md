@@ -18,7 +18,7 @@
 - Search for known vulnerabilities in Apache 2.4.29
 - No Exploits found
 # 3.Finding Hidden Directories with gobuster
-- ``` gobuster dir -u http://rootme.com/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt
+- ``` gobuster dir -u http://rootme.com/ -w /usr/share/wordlists/dirbuster/directory-list-2.3-medium.txt```
 - we find js,css,uploads and panel as the hidden directories
 - -whatever we upload in panel appears in uploads.
 # 4.Getting the Revershell
