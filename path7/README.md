@@ -1,6 +1,9 @@
 # Source- Another TryHackMe Room 
  - [ ] Compromising a web server
 
+![image](./sss.png)
+
+
 ## DNS Poisoning
  - We can instruct our system to direct us to a particular IP on requesting a specific domain.
  ``` sudo nano /etc/hosts
