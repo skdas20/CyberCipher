@@ -3,6 +3,8 @@
 - Getting a shell
 - Privilege Escalation
 
+![image](./ss.png)
+
 ##  Steps-
 
 # 1
