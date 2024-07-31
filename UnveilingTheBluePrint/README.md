@@ -14,3 +14,4 @@
 -  w1 timeout to 1 sec
 -  z port to scan
 # -sT flag of nmap to do a three way handshake with any port (-p 23)
+### Under Progress
