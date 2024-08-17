@@ -1,6 +1,6 @@
 # System Compromise
 
- - Detect the IPs using ifconfig
+ - Detect the IPs using arp scan 
  - ```sudo nmap -O  (ip)```
  - Hopping- The intermediate servers interconnecting the path to final destination domain are strolled on by the request
  - ```nmap -A -vvv angryip.org```- traceroute at the end
